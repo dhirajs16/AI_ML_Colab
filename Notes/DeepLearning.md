@@ -1,5 +1,34 @@
 # **Deep Learning**
 
+## Neural Network with an Analogy
+    
+  [But what is a neural network? | Deep learning chapter 1 - YouTube](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+  
+  ### **Understanding Neurons and Neural Network with an analogy**
+  
+  **A neural network for classifying handwritten numbers form 0-9**
+  
+  - Consider each pixel of a 28x28 image of a handwritten number, as a **neuron. That make 784 neurons in total.**
+      
+      ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/25178473-2914-4d7b-a847-2a1cc1d5c641/bab2debe-6a42-46d0-9d8a-260e9bde84e3/image.png)
+      
+  - Each neuron holds a number between 0 and 1 (for example, 0.58). This number is called an **Activation**. Neurons with activation’s close to 0 appear black, while those close to 1 appear white.
+  - These 784 neurons forms input layer of the neural network.
+  
+  [20241221-1514-23.6947215.mp4](https://prod-files-secure.s3.us-west-2.amazonaws.com/25178473-2914-4d7b-a847-2a1cc1d5c641/e23efef0-5964-4143-8c86-c96d33f64191/20241221-1514-23.6947215.mp4)
+  
+  - Each numbers are composed of edges and components (like a 9 is composed of a ring and vertical bar with a curve bottom).
+      
+      ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/25178473-2914-4d7b-a847-2a1cc1d5c641/5b2069a5-5b10-4a16-9c98-93452e1282f4/image.png)
+      
+  - Further these components are made of various edges.
+        
+      ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/25178473-2914-4d7b-a847-2a1cc1d5c641/fa9c423a-b879-4a16-ba84-9f9621281923/image.png)
+      
+  - The next layer after the input layer contains 16 neurons (an arbitrary choice). Each neuron corresponds to a specific edge, acting as a filter that activates when it detects a similar pattern. When a neuron "fires," its activation value approaches 1. So the activation of neurons of this layer is determined by previous layer neurons.
+  - The second hidden layer is also composed of 16 neurons. Each neuron corresponds to a specific component—like a ring, vertical bar, or horizontal bar. Like the previous layer, it acts as a filter where similar neurons fire.
+
+    
 [Video 3](https://youtu.be/fne_UE7hDn0?si=8WsJVmuqCSi2Ps8r)
 
 ### **Neural Network**
