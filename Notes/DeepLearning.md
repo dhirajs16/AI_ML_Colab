@@ -99,3 +99,27 @@ Neural networks are a cornerstone of modern artificial intelligence, enabling ma
 - **Applications**: Natural language processing tasks such as translation and text summarization.
 
 <img src="https://miro.medium.com/v2/resize:fit:2000/1*cuTSPlTq0a_327iTPJyD-Q.png" >
+
+<hr>
+## What is Perceptron?
+    
+[Video 4](https://www.youtube.com/watch?v=X7iIKPoZ0Sw&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&index=4)
+
+A **perceptron** is a fundamental component of neural networks and a type of machine learning algorithm used for supervised learning tasks, particularly in binary classification problems. It is considered the simplest form of a neural network and serves as a building block for more complex neural networks.
+
+### Key Components of a Perceptron
+
+1. **Input Layer**: This layer receives the input data, which is typically represented as a vector of numerical values.
+2. **Weights and Bias**: Each input is associated with a weight that determines its influence on the output. The bias acts as an intercept in a linear equation.
+3. **Summation Function**: The perceptron calculates the weighted sum of its inputs by multiplying each input by its corresponding weight and adding these values together.
+4. **Activation Function**: The weighted sum is then passed through an activation function, which determines the output of the perceptron. Common activation functions include the step function, sign function, and sigmoid function[1][2][3].
+
+### How Perceptrons Work
+
+1. **Training Process**: During training, the perceptron is presented with labeled examples. It compares its predicted output with the actual output and adjusts its weights to minimize the error[5].
+2. **Binary Classification**: Perceptrons are primarily used for binary classification tasks, where they classify input data into one of two categories (e.g., 0 or 1)[4].
+
+### Types of Perceptrons
+
+- **Single-Layer Perceptron**: Limited to learning linearly separable patterns, it is effective for tasks where data can be divided into distinct categories using a straight line[4].
+- **Multi-Layer Perceptron**: Consists of two or more layers, capable of handling more complex patterns and relationships within the data[4].
